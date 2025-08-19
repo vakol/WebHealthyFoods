@@ -117,7 +117,63 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="HealthyFoodCaption" xml:space="preserve">
+    <value>HEALTHY FOODS</value>
+  </data>
+  <data name="HealthyFoodsSubCaption" xml:space="preserve">
+    <value>This website can serve to those who want to prepare healthy foods.</value>
+  </data>
+  <data name="HealthyFoodsTitle" xml:space="preserve">
+    <value>Healthy Foods</value>
+  </data>
   <data name="PrepareFoods" xml:space="preserve">
     <value>Prepare Foods</value>
+  </data>
+  <data name="PrepareFoodsDescription" xml:space="preserve">
+    <value>Food preparation, if based on a logical basis, can help to increase
+an individual's personal health. In addition, it allows for a higher degree of
+psychological serenity when coupled with appropriate techniques of psychohygiene.</value>
+  </data>
+  <data name="LearnMore" xml:space="preserve">
+    <value>Learn more</value>
+  </data>
+  <data name="GoToPage" xml:space="preserve">
+    <value>Go to Page</value>
+  </data>
+  <data name="CheckInformation" xml:space="preserve">
+    <value>Checking Food Information</value>
+  </data>
+  <data name="CheckInformationCaption" xml:space="preserve">
+    <value>The intake of foods with an information check on their composition allows the energy value of these foods to be fully exploited.</value>
+  </data>
+  <data name="RelatedLinks" xml:space="preserve">
+    <value>Related Links</value>
+  </data>
+  <data name="PaulWheatonLink" xml:space="preserve">
+    <value>Best way to get healthy foods is to grow them yourself. Paul Wheaton is an American permaculture author, master gardener, software engineer:</value>
+  </data>
+  <data name="WheatonLabs" xml:space="preserve">
+    <value>Wheaton Labs</value>
+  </data>
+  <data name="AgrovoltaicTractor" xml:space="preserve">
+    <value>Draft of self-sufficient photovoltaic tractor:</value>
+  </data>
+  <data name="HealthyFoodsNecessarily" xml:space="preserve">
+    <value>Healthy foods are essential</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="LoggedUser" xml:space="preserve">
+    <value>LoggedUser</value>
+  </data>
+  <data name="HealthyFoodsCopyright" xml:space="preserve">
+    <value>Healthy Foods</value>
   </data>
 </root>

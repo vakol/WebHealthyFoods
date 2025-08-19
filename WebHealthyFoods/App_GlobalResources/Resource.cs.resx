@@ -117,7 +117,62 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="HealthyFoodCaption" xml:space="preserve">
+    <value>ZDRAVÉ POTRAVINY</value>
+  </data>
+  <data name="HealthyFoodsSubCaption" xml:space="preserve">
+    <value>Tato stránka může sloužit těm, kteří chtějí připravovat zdravé potraviny.</value>
+  </data>
+  <data name="HealthyFoodsTitle" xml:space="preserve">
+    <value>Zdravé potraviny</value>
+  </data>
   <data name="PrepareFoods" xml:space="preserve">
     <value>Příprava potravin</value>
+  </data>
+  <data name="PrepareFoodsDescription" xml:space="preserve">
+    <value>Příprava jídla, je-li založena na logickém základě, může pomoci zvýšit
+osobní zdraví jednotlivce.</value>
+  </data>
+  <data name="LearnMore" xml:space="preserve">
+    <value>Další informace</value>
+  </data>
+  <data name="GoToPage" xml:space="preserve">
+    <value>Přejít na stránku</value>
+  </data>
+  <data name="CheckInformation" xml:space="preserve">
+    <value>Kontrola informací o jídle</value>
+  </data>
+  <data name="CheckInformationCaption" xml:space="preserve">
+    <value>Příjem potravin s kontrolou informací o jejich složení umožňuje plně využít energetickou hodnotu těchto potravin.</value>
+  </data>
+  <data name="RelatedLinks" xml:space="preserve">
+    <value>Související odkazy</value>
+  </data>
+  <data name="PaulWheatonLink" xml:space="preserve">
+    <value>Nejlepší způsob, jak získat zdravé potraviny, je vypěstovat si je sám. Paul Wheaton je americký autor permakultury, hlavní zahradník, softwarový inženýr:</value>
+  </data>
+  <data name="WheatonLabs" xml:space="preserve">
+    <value>Wheaton Labs</value>
+  </data>
+  <data name="AgrovoltaicTractor" xml:space="preserve">
+    <value>Návrh soběstačného fotovoltaického traktoru:</value>
+  </data>
+  <data name="HealthyFoodsNecessarily" xml:space="preserve">
+    <value>Zvolte:</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Domů</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>O aplikaci</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>Kontakt</value>
+  </data>
+  <data name="LoggedUser" xml:space="preserve">
+    <value>Příhlášený uživatel:</value>
+  </data>
+  <data name="HealthyFoodsCopyright" xml:space="preserve">
+    <value>ZdravePotraviny</value>
   </data>
 </root>

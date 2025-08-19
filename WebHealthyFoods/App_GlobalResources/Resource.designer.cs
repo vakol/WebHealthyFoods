@@ -63,9 +63,171 @@ namespace WebHealthyFoods.App_GlobalResources {
         /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
+        public static string About {
+            get {
+                return ResourceManager.GetString("About", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string AgrovoltaicTractor {
+            get {
+                return ResourceManager.GetString("AgrovoltaicTractor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string CheckInformation {
+            get {
+                return ResourceManager.GetString("CheckInformation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string CheckInformationCaption {
+            get {
+                return ResourceManager.GetString("CheckInformationCaption", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string Contact {
+            get {
+                return ResourceManager.GetString("Contact", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string GoToPage {
+            get {
+                return ResourceManager.GetString("GoToPage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string HealthyFoodCaption {
+            get {
+                return ResourceManager.GetString("HealthyFoodCaption", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string HealthyFoodsCopyright {
+            get {
+                return ResourceManager.GetString("HealthyFoodsCopyright", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string HealthyFoodsNecessarily {
+            get {
+                return ResourceManager.GetString("HealthyFoodsNecessarily", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string HealthyFoodsSubCaption {
+            get {
+                return ResourceManager.GetString("HealthyFoodsSubCaption", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string HealthyFoodsTitle {
+            get {
+                return ResourceManager.GetString("HealthyFoodsTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string Home {
+            get {
+                return ResourceManager.GetString("Home", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string LearnMore {
+            get {
+                return ResourceManager.GetString("LearnMore", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string LoggedUser {
+            get {
+                return ResourceManager.GetString("LoggedUser", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PaulWheatonLink {
+            get {
+                return ResourceManager.GetString("PaulWheatonLink", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
         public static string PrepareFoods {
             get {
                 return ResourceManager.GetString("PrepareFoods", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PrepareFoodsDescription {
+            get {
+                return ResourceManager.GetString("PrepareFoodsDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string RelatedLinks {
+            get {
+                return ResourceManager.GetString("RelatedLinks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string WheatonLabs {
+            get {
+                return ResourceManager.GetString("WheatonLabs", resourceCulture);
             }
         }
     }

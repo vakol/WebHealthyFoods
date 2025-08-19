@@ -211,6 +211,7 @@
     <Content Include="Models\TimeUnits.xsc">
       <DependentUpon>TimeUnits.xsd</DependentUpon>
     </Content>
+    <Content Include="Docs\prepare_foods_gui.uxf" />
     <None Include="Models\TimeUnits.xsd">
       <SubType>Designer</SubType>
       <Generator>MSDataSetGenerator</Generator>

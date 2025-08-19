@@ -1,41 +1,41 @@
 ﻿@{
-    ViewBag.Title = "Healthy Foods";
+    ViewBag.Title = @Resources.Resource.HealthyFoodsTitle;
 }
 
 <main>
     <section class="row" aria-labelledby="aspnetTitle">
-        <h1 id="title">HEALTHY FOODS</h1>
-        <p class="lead">This website can serve to those who want to prepare healthy foods.</p>
-        <p><a href="https://asp.net" class="btn btn-primary btn-md">Learn more &raquo;</a></p>
+        <h1 id="title">@Resources.Resource.HealthyFoodCaption</h1>
+        <p class="lead">@Resources.Resource.HealthyFoodsSubCaption</p>
+        <p><a href="https://asp.net" class="btn btn-primary btn-md">@Resources.Resource.LearnMore &raquo;</a></p>
     </section>
 
     <div class="row">
         <section class="col-md-4" aria-labelledby="gettingStartedTitle">
             <h2 id="gettingStartedTitle">@Resources.Resource.PrepareFoods</h2>
-    <p>
-        Food preparation, if based on a logical basis, can help to increase
-        an individual's personal health. In addition, it allows for a higher degree of
-        psychological serenity when coupled with appropriate techniques of psychohygiene.
-    </p>
-    <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301865">Go to Page &raquo;</a></p>
+            <p>
+                @Resources.Resource.PrepareFoodsDescription
+            </p>
+    <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301865">@Resources.Resource.GoToPage &raquo;</a></p>
 </section>
         <section class="col-md-4" aria-labelledby="librariesTitle">
-            <h2 id="librariesTitle">Checking Food Information</h2>
+            <h2 id="librariesTitle">@Resources.Resource.CheckInformation</h2>
             <p>
-                The intake of foods with an information check on their composition allows the energy
-                value of these foods to be fully exploited.</p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301866">Go to Page &raquo;</a></p>
+                @Resources.Resource.CheckInformationCaption
+            </p>
+            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301866">@Resources.Resource.GoToPage &raquo;</a></p>
         </section>
         <section class="col-md-4" aria-labelledby="hostingTitle">
-            <h2 id="hostingTitle">Related Links</h2>
+            <h2 id="hostingTitle">@Resources.Resource.RelatedLinks</h2>
             <p>
-                Best way to get healthy foods is to grow them yourself. Paul Wheaton is an American permaculture author, master gardener, software engineer:
+                @Resources.Resource.PaulWheatonLink
             </p>
-            <p><a class="btn btn-outline-dark" href="https://wheaton-labs.com/">Wheaton Labs &raquo;</a></p>
+            <p><a class="btn btn-outline-dark" href="https://wheaton-labs.com/">@Resources.Resource.WheatonLabs &raquo;</a></p>
+            <!--
             <p>
-                Draft of self-sufficient photovoltaic tractor:
+                @Resources.Resource.AgrovoltaicTractor
             </p>
-            <p><a class="btn btn-outline-dark" href="https://wheaton-labs.com/">Go to Page &raquo;</a></p>
+            <p><a class="btn btn-outline-dark" href="https://wheaton-labs.com/">@Resources.Resource.GoToPage &raquo;</a></p>
+            -->
         </section>
     </div>
 </main>
