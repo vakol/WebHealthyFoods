@@ -170,19 +170,17 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\TimeUnits.cs">
-      <DependentUpon>TimeUnits.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="Models\TimeUnits.Designer.cs">
+    <Compile Include="Models\PrepareFoodsDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>TimeUnits.xsd</DependentUpon>
+      <DependentUpon>PrepareFoodsDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\healthy_foods_db.accdb" />
     <Content Include="App_Data\healthy_foods_db.mdb" />
+    <Content Include="App_Data\whisper.exe" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-grid.rtl.css" />
@@ -199,6 +197,9 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Scripts\FoodsIngredients.js" />
+    <Content Include="Scripts\PrepareFoods.js" />
+    <Content Include="Content\PrepareFoods.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -208,18 +209,19 @@
     <Content Include="Scripts\bootstrap.esm.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="Models\TimeUnits.xsc">
-      <DependentUpon>TimeUnits.xsd</DependentUpon>
+    <Content Include="Models\PrepareFoodsDataSet.xsc">
+      <DependentUpon>PrepareFoodsDataSet.xsd</DependentUpon>
     </Content>
-    <Content Include="Docs\prepare_foods_gui.uxf" />
-    <None Include="Models\TimeUnits.xsd">
+    <None Include="Models\PrepareFoodsDataSet.xsd">
       <SubType>Designer</SubType>
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>TimeUnits.Designer.cs</LastGenOutput>
+      <LastGenOutput>PrepareFoodsDataSet.Designer.cs</LastGenOutput>
     </None>
-    <Content Include="Models\TimeUnits.xss">
-      <DependentUpon>TimeUnits.xsd</DependentUpon>
+    <Content Include="Models\PrepareFoodsDataSet.xss">
+      <DependentUpon>PrepareFoodsDataSet.xsd</DependentUpon>
     </Content>
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
+    <None Include="Properties\PublishProfiles\WebHealthyFoods20250822175503 - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
     <Content Include="Scripts\jquery-3.7.0.min.js" />
@@ -245,7 +247,8 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Home\TimeUnits.cshtml" />
+    <Content Include="Views\Home\PrepareFoods.cshtml" />
+    <Content Include="Views\Home\FoodsIngredients.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />

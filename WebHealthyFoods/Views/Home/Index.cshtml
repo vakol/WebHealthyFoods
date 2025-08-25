@@ -15,14 +15,14 @@
             <p>
                 @Resources.Resource.PrepareFoodsDescription
             </p>
-    <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301865">@Resources.Resource.GoToPage &raquo;</a></p>
+    <p>@Html.ActionLink(Resources.Resource.PrepareFoods, "PrepareFoods", "Home", new { area = "" }, new { @class = "btn btn-outline-dark" })</p>
 </section>
         <section class="col-md-4" aria-labelledby="librariesTitle">
             <h2 id="librariesTitle">@Resources.Resource.CheckInformation</h2>
             <p>
                 @Resources.Resource.CheckInformationCaption
             </p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301866">@Resources.Resource.GoToPage &raquo;</a></p>
+            <p>@Html.ActionLink(Resources.Resource.FoodsIngredients, "FoodsIngredients", "Home", new { area = "" }, new { @class = "btn btn-outline-dark" })</p>
         </section>
         <section class="col-md-4" aria-labelledby="hostingTitle">
             <h2 id="hostingTitle">@Resources.Resource.RelatedLinks</h2>

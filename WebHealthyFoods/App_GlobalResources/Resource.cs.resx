@@ -175,4 +175,37 @@ osobní zdraví jednotlivce.</value>
   <data name="HealthyFoodsCopyright" xml:space="preserve">
     <value>ZdravePotraviny</value>
   </data>
+  <data name="RecordVoice" xml:space="preserve">
+    <value>Hlasová nahrávka</value>
+  </data>
+  <data name="StopRecording" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="RecWillStart" xml:space="preserve">
+    <value>Stiskněte [OK] pro nahrávání a mluvte do mikrofonu.</value>
+  </data>
+  <data name="MicrophoneError" xml:space="preserve">
+    <value>Přístup k mikrofonu byl odepřen</value>
+  </data>
+  <data name="MaximumRecording" xml:space="preserve">
+    <value>Maximální doba nahrávání je</value>
+  </data>
+  <data name="Seconds" xml:space="preserve">
+    <value>sekund</value>
+  </data>
+  <data name="FoodNotes" xml:space="preserve">
+    <value>Zde vložte vaše poznámky o pokrmu.</value>
+  </data>
+  <data name="SendEmail" xml:space="preserve">
+    <value>Poslat Email</value>
+  </data>
+  <data name="FoodsIngredients" xml:space="preserve">
+    <value>Složky potravin</value>
+  </data>
+  <data name="FoodToList" xml:space="preserve">
+    <value>Přidat do seznamu</value>
+  </data>
+  <data name="AlreadyInList" xml:space="preserve">
+    <value>Potravina už je uvedena v seznamu!</value>
+  </data>
 </root>

@@ -176,4 +176,37 @@ psychological serenity when coupled with appropriate techniques of psychohygiene
   <data name="HealthyFoodsCopyright" xml:space="preserve">
     <value>Healthy Foods</value>
   </data>
+  <data name="RecordVoice" xml:space="preserve">
+    <value>Voice record</value>
+  </data>
+  <data name="StopRecording" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="RecWillStart" xml:space="preserve">
+    <value>Press [OK] for recording and speak to microphone.</value>
+  </data>
+  <data name="MicrophoneError" xml:space="preserve">
+    <value>Microphone access denied</value>
+  </data>
+  <data name="MaximumRecording" xml:space="preserve">
+    <value>Maximum recording time is</value>
+  </data>
+  <data name="Seconds" xml:space="preserve">
+    <value>seconds</value>
+  </data>
+  <data name="FoodNotes" xml:space="preserve">
+    <value>Insert your food notes here.</value>
+  </data>
+  <data name="SendEmail" xml:space="preserve">
+    <value>Send Email</value>
+  </data>
+  <data name="FoodsIngredients" xml:space="preserve">
+    <value>Food ingredients</value>
+  </data>
+  <data name="FoodToList" xml:space="preserve">
+    <value>Add to List</value>
+  </data>
+  <data name="AlreadyInList" xml:space="preserve">
+    <value>Already in list1</value>
+  </data>
 </root>

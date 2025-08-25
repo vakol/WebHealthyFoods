@@ -174,4 +174,37 @@
   <data name="HealthyFoodsCopyright" xml:space="preserve">
     <value />
   </data>
+  <data name="RecordVoice" xml:space="preserve">
+    <value />
+  </data>
+  <data name="StopRecording" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RecWillStart" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MicrophoneError" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MaximumRecording" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Seconds" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FoodNotes" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SendEmail" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FoodsIngredients" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FoodToList" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AlreadyInList" xml:space="preserve">
+    <value />
+  </data>
 </root>

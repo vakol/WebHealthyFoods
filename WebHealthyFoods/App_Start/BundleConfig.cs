@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace WebApplication1
+namespace WebHealthyFoods
 {
     public class BundleConfig
     {
@@ -24,7 +24,11 @@ namespace WebApplication1
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/site.css",
+                      "~/Content/PrepareFoods.css"));
+
+            bundles.Add(new ScriptBundle("~/Content/js").Include(
+                        "~/Content/PrepareFoods.js"));
         }
     }
 }

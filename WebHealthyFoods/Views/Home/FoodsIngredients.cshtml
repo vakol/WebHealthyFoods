@@ -1,0 +1,35 @@
+﻿@{
+    Page.Title = @Resources.Resource.FoodsIngredients;
+    var ControlsStyle = "font: bold 14px arial";
+    var ButtonWidth = "150px";
+}
+
+<main aria-labelledby="title" class="d-flex flex-column align-items-center min-vh-100">
+    <h2>@Resources.Resource.FoodsIngredients</h2>
+    <div class="d-flex justify-content-between align-items-center w-100">
+        <form class="flex-grow-1 mx-3 w-100">
+            <select id="FoodList" class="form-control mb-2" style="@ControlsStyle; min-width: 100%"></select>
+            <center>
+                <button id="AddToList" type="button" class="btn btn-outline-secondary mx-2" style="min-width: @ButtonWidth">@Resources.Resource.FoodToList</button>
+            </center>
+            <ul id="SelectedFoodList" class="list-group mb-2" style="@ControlsStyle; min-width: 100%"></ul>
+            <ul id="IngredientsList" class="list-group mb-2" style="@ControlsStyle; min-width: 100%"></ul>
+            <center>
+                <button id="sendEmail" type="button" class="btn btn-outline-secondary mx-2" style="min-width: @ButtonWidth">@Resources.Resource.SendEmail</button>
+            </center>
+        </form>
+    </div>
+</main>
+
+@section Scripts
+{
+    <script>
+        var properties = {
+            foods: @Html.Raw(Json.Encode(ViewBag.FoodsList)),
+            ingredients: @Html.Raw(Json.Encode(ViewBag.IngredientsList)),
+            foodIngredients: @Html.Raw(Json.Encode(ViewBag.FoodIngredientsList)),
+            alreadyInList: '@Html.Raw(@Resources.Resource.AlreadyInList)'
+        };
+    </script>
+    <script src="~/Scripts/FoodsIngredients.js"></script>
+}

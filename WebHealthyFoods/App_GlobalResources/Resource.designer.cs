@@ -81,6 +81,15 @@ namespace WebHealthyFoods.App_GlobalResources {
         /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
+        public static string AlreadyInList {
+            get {
+                return ResourceManager.GetString("AlreadyInList", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
         public static string CheckInformation {
             get {
                 return ResourceManager.GetString("CheckInformation", resourceCulture);
@@ -102,6 +111,33 @@ namespace WebHealthyFoods.App_GlobalResources {
         public static string Contact {
             get {
                 return ResourceManager.GetString("Contact", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string FoodNotes {
+            get {
+                return ResourceManager.GetString("FoodNotes", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string FoodsIngredients {
+            get {
+                return ResourceManager.GetString("FoodsIngredients", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string FoodToList {
+            get {
+                return ResourceManager.GetString("FoodToList", resourceCulture);
             }
         }
         
@@ -189,6 +225,24 @@ namespace WebHealthyFoods.App_GlobalResources {
         /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
+        public static string MaximumRecording {
+            get {
+                return ResourceManager.GetString("MaximumRecording", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string MicrophoneError {
+            get {
+                return ResourceManager.GetString("MicrophoneError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
         public static string PaulWheatonLink {
             get {
                 return ResourceManager.GetString("PaulWheatonLink", resourceCulture);
@@ -216,9 +270,54 @@ namespace WebHealthyFoods.App_GlobalResources {
         /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
+        public static string RecordVoice {
+            get {
+                return ResourceManager.GetString("RecordVoice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string RecWillStart {
+            get {
+                return ResourceManager.GetString("RecWillStart", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
         public static string RelatedLinks {
             get {
                 return ResourceManager.GetString("RelatedLinks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string Seconds {
+            get {
+                return ResourceManager.GetString("Seconds", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string SendEmail {
+            get {
+                return ResourceManager.GetString("SendEmail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string StopRecording {
+            get {
+                return ResourceManager.GetString("StopRecording", resourceCulture);
             }
         }
         
