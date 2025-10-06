@@ -1,5 +1,5 @@
-﻿    <!DOCTYPE html>
-<html>
+﻿<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,10 +19,14 @@
             <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
                 <ul class="navbar-nav flex-grow-1">
                     <li>@Html.ActionLink(Resources.Resource.Home, "Index", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink(Resources.Resource.PrepareFoods, "PrepareFoods", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li>@Html.ActionLink(Resources.Resource.FoodsIngredients, "FoodsIngredients", "Home", new { area = "" }, new { @class = "nav-link" })</li>
+                    <li><a class="nav-link" href="https://www.permazahrada.cz/permakultura-jak-zacit/">@Resources.Resource.PermaZahrada &raquo;</a></li>
+                    <li><a class="nav-link" href="https://wheaton-labs.com/">@Resources.Resource.WheatonLabs &raquo;</a></li>
                     <li>@Html.ActionLink(Resources.Resource.About, "About", "Home", new { area = "" }, new { @class = "nav-link" })</li>
                     <li>@Html.ActionLink(Resources.Resource.Contact, "Contact", "Home", new { area = "" }, new { @class = "nav-link" })</li>
                 </ul>
-                <p class="nav navbar-text navbar-right">@Resources.Resource.LoggedUser:&nbsp;&nbsp;&nbsp; <strong>@User.Identity.Name</strong></p>
+                <!--<p class="nav navbar-text navbar-right">@Resources.Resource.LoggedUser:&nbsp;&nbsp;&nbsp; <strong>@User.Identity.Name</strong></p>-->
             </div>
         </div>
     </nav>
@@ -32,10 +36,17 @@
         <footer>
             <p>&copy; @DateTime.Now.Year - @Resources.Resource.HealthyFoodsCopyright</p>
         </footer>
+        <!-- Cookies Warning Banner -->
+        <div id="cookies-banner" class="d-none alert alert-info alert-dismissible fade show fixed-bottom mb-0 text-center" role="alert" style="z-index: 1050;">
+            Povoluji těmto stránkám používat cookies k uložení informace o mém e-mailu do tohoto prohlížeče.
+            <button type="button" class="btn btn-primary btn-sm ms-2" onclick="enableCookies(true)">Přijmout</button>
+            <button type="button" class="btn btn-secondary btn-sm ms-2" onclick="enableCookies(false)">Odmítnout</button>
+        </div>
     </div>
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/custom")
     @RenderSection("scripts", required: false)
 </body>
-</html>
+</htmllang="en">

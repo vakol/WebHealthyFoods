@@ -25,10 +25,12 @@ namespace WebHealthyFoods
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css",
-                      "~/Content/PrepareFoods.css"));
-
-            bundles.Add(new ScriptBundle("~/Content/js").Include(
-                        "~/Content/PrepareFoods.js"));
+                      "~/Content/PrepareFoods.css",
+                      "~/Content/FoodsIngredients.css"));
+            
+            // Custom script bundle for additional custom JavaScript files.
+            bundles.Add(new ScriptBundle("~/bundles/custom").Include(
+                        "~/Scripts/utilities.js"));
         }
     }
 }

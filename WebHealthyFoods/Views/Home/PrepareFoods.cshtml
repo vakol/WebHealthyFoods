@@ -1,47 +1,52 @@
 @{
     ViewBag.Title = @Resources.Resource.PrepareFoods;
-    var ButtonHeight = "250px";
+    var ButtonHeight = "50px";
     var PreparHeight = "200px";
-    var ControlsStyle = "font: bold 14px arial";
+    var FoodTypeStyle = "font: bold 14px arial";
+    var FoodNameStyle = "font: bold 17px arial";
     var ButtonWidth = "150px";
     var MaxRecTime = 10; // seconds
 }
-
+<!-- Main dialog. -->
 <main aria-labelledby="title" class="d-flex flex-column align-items-center min-vh-100">
     <h2>@Resources.Resource.PrepareFoods</h2>
     <div class="d-flex justify-content-between align-items-center w-100">
         <form method="get" action="@Url.Action("PrepareFoods", "Home")">
             <input type="hidden" name="foodIndex" min="0" value="@ViewBag.previousFoodIndex" />
-            <button type="submit" class="btn btn-outline-secondary" style="min-height: @ButtonHeight">&lt;&lt;</button>
+            <button type="submit" class="btn btn-outline-secondary" style="min-height: @ButtonHeight">&lt;</button>
         </form>
         <form class="flex-grow-1 mx-3 w-100">
-            <input type="text" value="@Model.CurrentFoodType" readonly class="form-control mb-2" style="@ControlsStyle; min-width: 100% " />
-            <input type="text" value="@Model.CurrentPreparedFood" readonly class="form-control mb-2" style="@ControlsStyle; min-width: 100%" />
-            <input type="text" value="@Model.CurrentPrepTime @Model.CurrentPrepUnit" readonly class="form-control mb-2" style="min-width: 100%" />
-            <input type="text" value="@Model.CurrentEnrg @Model.CurrentEnrgUnit" readonly class="form-control mb-2" style="min-width: 100%" />
-            <textarea name="CurrentPrep" rows="5" class="form-control mb-2 readonly" style="min-width: 100%; min-height: @PreparHeight">@Model.CurrentPrep</textarea>
-            <textarea name="FoodNotes" rows="5" class="form-control mb-2 readonly" style="min-width: 100%; min-height: @PreparHeight" placeholder="@Resources.Resource.FoodNotes"></textarea>
+            <input id="food-type" type="text" value="@Model.CurrentFoodType" readonly class="form-control mb-2" style="@FoodTypeStyle; min-width: 100% " />
+            <input id="food-name" type="text" value="@Model.CurrentPreparedFood" readonly class="form-control mb-2" style="@FoodNameStyle; min-width: 100%" />
+            <input id="food-time" type="text" value="@Model.CurrentPrepTime @Model.CurrentPrepUnit" readonly class="form-control mb-2" style="min-width: 100%" />
+            <input id="food-energy" type="text" value="@Model.CurrentEnrg @Model.CurrentEnrgUnit" readonly class="form-control mb-2" style="min-width: 100%" />
+            <textarea id="current-prep" rows="5" class="form-control mb-2 readonly" style="min-width: 100%; min-height: @PreparHeight">@Model.CurrentPrep</textarea>
+            <textarea id="food-notes" rows="5" class="form-control mb-2 readonly" style="min-width: 100%; min-height: @PreparHeight" placeholder="@Resources.Resource.FoodNotes"></textarea>
             <center>
-                <button id="recordVoice" type="button" class="btn btn-outline-secondary mx-2" style="min-width: @ButtonWidth">@Resources.Resource.RecordVoice</button>
-                <button id="sendEmail" type="button" class="btn btn-outline-secondary mx-2" style="min-width: @ButtonWidth">@Resources.Resource.SendEmail</button>
+                <button id="send-email" type="button" class="btn btn-outline-secondary mx-2" style="min-width: @ButtonWidth">@Resources.Resource.SendEmail</button>
+                <button id="record-voice" type="button" class="btn btn-outline-secondary mx-2" style="min-width: @ButtonWidth">@Resources.Resource.RecordVoice</button>
             </center>
         </form>
         <form method="get" action="@Url.Action("PrepareFoods", "Home")">
             <input type="hidden" name="foodIndex" min="0" value="@ViewBag.nextFoodIndex" />
-            <button type="submit" class="btn btn-outline-secondary" style="min-height: @ButtonHeight">&gt;&gt;</button>
+            <button type="submit" class="btn btn-outline-secondary" style="min-height: @ButtonHeight">&gt;</button>
         </form>
     </div>
+    @Html.Partial("~/Views/Shared/_SendEmail.cshtml")
 </main>
 
 @section Scripts
 {
     <script>
         var properties = {
+            foodIndex: @ViewBag.FoodIndex,
             maxRecTime: @MaxRecTime,
             recordVoice: "@Html.Raw(@Resources.Resource.RecordVoice)",
             stopRecording: "@Html.Raw(@Resources.Resource.StopRecording)",
             informUser: "@Html.Raw(Resources.Resource.RecWillStart) @Html.Raw(Resources.Resource.MaximumRecording) @MaxRecTime @Resources.Resource.Seconds.",
-            microphoneError: "@Html.Raw(@Html.Raw(Resources.Resource.MicrophoneError)):"
+            microphoneError: "@Html.Raw(@Html.Raw(Resources.Resource.MicrophoneError)):",
+            uniqueRequestId: "@Guid.NewGuid()",
+            voice2TextUrl: "@Url.Action("Voice2Text")"
         };
     </script>
     <script src="~/Scripts/PrepareFoods.js"></script>

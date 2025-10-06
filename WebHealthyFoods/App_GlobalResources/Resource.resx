@@ -147,7 +147,7 @@
   <data name="RelatedLinks" xml:space="preserve">
     <value />
   </data>
-  <data name="PaulWheatonLink" xml:space="preserve">
+  <data name="PermaCultureLinks" xml:space="preserve">
     <value />
   </data>
   <data name="WheatonLabs" xml:space="preserve">
@@ -160,9 +160,6 @@
     <value />
   </data>
   <data name="Home" xml:space="preserve">
-    <value />
-  </data>
-  <data name="About" xml:space="preserve">
     <value />
   </data>
   <data name="Contact" xml:space="preserve">
@@ -205,6 +202,36 @@
     <value />
   </data>
   <data name="AlreadyInList" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FoodList" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ContactEmail" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PermaZahrada" xml:space="preserve">
+    <value />
+  </data>
+  <data name="About" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AboutContent" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LearnMoreContents" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EmailCaption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CancelButton" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EnterEmail" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EmailError" xml:space="preserve">
     <value />
   </data>
 </root>

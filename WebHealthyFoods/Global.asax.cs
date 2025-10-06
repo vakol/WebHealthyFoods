@@ -20,7 +20,8 @@ namespace WebHealthyFoods
         {
             // Set the culture for the current thread.
             // Set up localization based on user choice or request.
-            var culture = "cs"; // Or get from user/session/request
+            // Or get from user/session/request
+            var culture = "cs-CZ"; /*"en_US";*/
             System.Threading.Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo(culture);
             System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(culture);
         }

@@ -121,7 +121,7 @@
     <value>ZDRAVÉ POTRAVINY</value>
   </data>
   <data name="HealthyFoodsSubCaption" xml:space="preserve">
-    <value>Tato stránka může sloužit těm, kteří chtějí připravovat zdravé potraviny.</value>
+    <value>Tato stránka může sloužit těm, kteří chtějí připravovat zdravé potraviny ať už z důvodu onemocnění nebo jeho prevence.</value>
   </data>
   <data name="HealthyFoodsTitle" xml:space="preserve">
     <value>Zdravé potraviny</value>
@@ -148,8 +148,8 @@ osobní zdraví jednotlivce.</value>
   <data name="RelatedLinks" xml:space="preserve">
     <value>Související odkazy</value>
   </data>
-  <data name="PaulWheatonLink" xml:space="preserve">
-    <value>Nejlepší způsob, jak získat zdravé potraviny, je vypěstovat si je sám. Paul Wheaton je americký autor permakultury, hlavní zahradník, softwarový inženýr:</value>
+  <data name="PermaCultureLinks" xml:space="preserve">
+    <value>Nejlepší způsob, jak získat zdravé potraviny, je jejich pěstování na vlastní malé zahradě. </value>
   </data>
   <data name="WheatonLabs" xml:space="preserve">
     <value>Wheaton Labs</value>
@@ -163,9 +163,6 @@ osobní zdraví jednotlivce.</value>
   <data name="Home" xml:space="preserve">
     <value>Domů</value>
   </data>
-  <data name="About" xml:space="preserve">
-    <value>O aplikaci</value>
-  </data>
   <data name="Contact" xml:space="preserve">
     <value>Kontakt</value>
   </data>
@@ -173,7 +170,7 @@ osobní zdraví jednotlivce.</value>
     <value>Příhlášený uživatel:</value>
   </data>
   <data name="HealthyFoodsCopyright" xml:space="preserve">
-    <value>ZdravePotraviny</value>
+    <value>HealthyFoods</value>
   </data>
   <data name="RecordVoice" xml:space="preserve">
     <value>Hlasová nahrávka</value>
@@ -194,7 +191,7 @@ osobní zdraví jednotlivce.</value>
     <value>sekund</value>
   </data>
   <data name="FoodNotes" xml:space="preserve">
-    <value>Zde vložte vaše poznámky o pokrmu.</value>
+    <value>Zde vložte vaše poznámky o pokrmu. Při přechodu na jiný pokrm se  poznámky neuchovávají.</value>
   </data>
   <data name="SendEmail" xml:space="preserve">
     <value>Poslat Email</value>
@@ -207,5 +204,53 @@ osobní zdraví jednotlivce.</value>
   </data>
   <data name="AlreadyInList" xml:space="preserve">
     <value>Potravina už je uvedena v seznamu!</value>
+  </data>
+  <data name="FoodList" xml:space="preserve">
+    <value>Seznam potravin:</value>
+  </data>
+  <data name="ContactEmail" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="PermaZahrada" xml:space="preserve">
+    <value>PermaZahrada</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>O aplikaci</value>
+  </data>
+  <data name="AboutContent" xml:space="preserve">
+    <value>Aplikace je určená pro zájemce, kteří se rozhodli pro cestu zdravého příjmu potravin, ať už z důvodu nemoci nebo prevence nemoci.</value>
+  </data>
+  <data name="LearnMoreContents" xml:space="preserve">
+    <value>    &lt;p&gt;Informace o složkách surovin a energetických hodnotách byly získány pomocí AI programu ChatGPT v září 2025. Informace mohou být v pozdějších letech zastaralé.
+    Příklady dotazu v angličtině na energetickou hodnotu pokrmu a složení potraviny jsou:&lt;/p&gt;
+    &lt;p&gt;
+        &lt;i&gt;&lt;b&gt;What is energy value of soup made by potatoes, cabbage, onion and main food: cooked potatoes with boiled egg?&lt;/b&gt;&lt;/i&gt;&lt;br /&gt;
+        Whole Meal (Soup + Potatoes + Egg)&lt;br /&gt;
+        &lt;u&gt;≈ 355 kcal&lt;/u&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+        &lt;i&gt;&lt;b&gt;What is the composition of the cereal roll?&lt;/b&gt;&lt;/i&gt;&lt;br /&gt;
+        &lt;u&gt;Flour&lt;/u&gt; (from one or multiple cereals)&lt;br /&gt;
+        &lt;u&gt;Water&lt;/u&gt;&lt;br /&gt;
+        &lt;u&gt;Yeast&lt;/u&gt; (or &lt;u&gt;sourdough&lt;/u&gt; starter)&lt;br /&gt;
+        &lt;u&gt;Salt&lt;/u&gt;&lt;br /&gt;
+        Sometimes &lt;u&gt;sugar&lt;/u&gt;, &lt;u&gt;milk&lt;/u&gt;, &lt;u&gt;butter&lt;/u&gt;, or &lt;u&gt;oil&lt;/u&gt; for softness and flavor&lt;br /&gt;
+        Optional seeds or whole grains (&lt;u&gt;sunflower&lt;/u&gt;, &lt;u&gt;sesame&lt;/u&gt;, &lt;u&gt;flax&lt;/u&gt;, &lt;u&gt;&lt;/u&gt;, etc.) for texture and nutrition&lt;br /&gt;
+        Cereal base (&lt;u&gt;corn&lt;/u&gt;, &lt;u&gt;rice&lt;/u&gt;, &lt;u&gt;wheat&lt;/u&gt;, &lt;u&gt;oat&lt;/u&gt;, or &lt;u&gt;multigrain&lt;/u&gt;)&lt;br /&gt;
+        Binding agents (&lt;u&gt;syrup&lt;/u&gt;, &lt;u&gt;glucose&lt;/u&gt;, &lt;u&gt;honey&lt;/u&gt;, or &lt;u&gt;malt&lt;/u&gt;)&lt;br /&gt;
+        Optional fortification (&lt;u&gt;vitamins&lt;/u&gt;, &lt;u&gt;minerals&lt;/u&gt;, &lt;u&gt;fiber&lt;/u&gt;)&lt;br /&gt;
+    &lt;/p&gt;</value>
+  </data>
+  <data name="EmailCaption" xml:space="preserve">
+    <value>Odeslat na e-mail:</value>
+  </data>
+  <data name="CancelButton" xml:space="preserve">
+    <value>Storno</value>
+  </data>
+  <data name="EnterEmail" xml:space="preserve">
+    <value>Prosím, vložte e-mailovou adresu.</value>
+  </data>
+  <data name="EmailError" xml:space="preserve">
+    <value>Chyba při odesílání e-mailu.</value>
   </data>
 </root>

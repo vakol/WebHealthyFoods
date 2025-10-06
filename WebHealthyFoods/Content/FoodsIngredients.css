@@ -1,0 +1,6 @@
+﻿/* CSS for the views. */
+#selected-ingredient-list .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,34 @@
+﻿@{
+    var EmailContentHeight = "400px";
+}
+<!-- Modal dialog for sending e-mail. -->
+<div class="modal fade" id="send-email-modal" tabindex="-1" aria-labelledby="email-modal-label" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="email-modal-label">@Resources.Resource.EmailCaption</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="@Resources.Resource.CancelButton"></button>
+            </div>
+            <div class="modal-body">
+                <div class="d-flex justify-content-between align-items-center w-100">
+                    <form class="flex-grow-1 mx-3 w-100">
+                        <input id="email-address" type="text" class="form-control mb-2" style="min-width: 100%" placeholder="example@domain.com" />
+                        <input id="email-subject" type="text" class="form-control mb-2" style="min-width: 100%" />
+                        <textarea id="email-food" rows="5" class="form-control mb-2 readonly" style="min-width: 100%; min-height: @EmailContentHeight"></textarea>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">@Resources.Resource.CancelButton</button>
+                    <button id="send-email-contents" type="button" class="btn btn-primary">@Resources.Resource.SendEmail</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    var utilityProp = {
+        enterEmail: "@Html.Raw(@Resources.Resource.EnterEmail)",
+        EmailError: "@Html.Raw(@Resources.Resource.EmailError)"
+    };
+</script>

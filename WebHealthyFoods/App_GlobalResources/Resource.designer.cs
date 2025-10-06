@@ -72,6 +72,15 @@ namespace WebHealthyFoods.App_GlobalResources {
         /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
+        public static string AboutContent {
+            get {
+                return ResourceManager.GetString("AboutContent", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
         public static string AgrovoltaicTractor {
             get {
                 return ResourceManager.GetString("AgrovoltaicTractor", resourceCulture);
@@ -84,6 +93,15 @@ namespace WebHealthyFoods.App_GlobalResources {
         public static string AlreadyInList {
             get {
                 return ResourceManager.GetString("AlreadyInList", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string CancelButton {
+            get {
+                return ResourceManager.GetString("CancelButton", resourceCulture);
             }
         }
         
@@ -111,6 +129,51 @@ namespace WebHealthyFoods.App_GlobalResources {
         public static string Contact {
             get {
                 return ResourceManager.GetString("Contact", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string ContactEmail {
+            get {
+                return ResourceManager.GetString("ContactEmail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string EmailCaption {
+            get {
+                return ResourceManager.GetString("EmailCaption", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string EmailError {
+            get {
+                return ResourceManager.GetString("EmailError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string EnterEmail {
+            get {
+                return ResourceManager.GetString("EnterEmail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string FoodList {
+            get {
+                return ResourceManager.GetString("FoodList", resourceCulture);
             }
         }
         
@@ -216,6 +279,15 @@ namespace WebHealthyFoods.App_GlobalResources {
         /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
+        public static string LearnMoreContents {
+            get {
+                return ResourceManager.GetString("LearnMoreContents", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
         public static string LoggedUser {
             get {
                 return ResourceManager.GetString("LoggedUser", resourceCulture);
@@ -243,9 +315,18 @@ namespace WebHealthyFoods.App_GlobalResources {
         /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
-        public static string PaulWheatonLink {
+        public static string PermaCultureLinks {
             get {
-                return ResourceManager.GetString("PaulWheatonLink", resourceCulture);
+                return ResourceManager.GetString("PermaCultureLinks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string PermaZahrada {
+            get {
+                return ResourceManager.GetString("PermaZahrada", resourceCulture);
             }
         }
         

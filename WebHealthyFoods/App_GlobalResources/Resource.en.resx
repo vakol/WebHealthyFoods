@@ -149,7 +149,7 @@ psychological serenity when coupled with appropriate techniques of psychohygiene
   <data name="RelatedLinks" xml:space="preserve">
     <value>Related Links</value>
   </data>
-  <data name="PaulWheatonLink" xml:space="preserve">
+  <data name="PermaCultureLinks" xml:space="preserve">
     <value>Best way to get healthy foods is to grow them yourself. Paul Wheaton is an American permaculture author, master gardener, software engineer:</value>
   </data>
   <data name="WheatonLabs" xml:space="preserve">
@@ -164,9 +164,6 @@ psychological serenity when coupled with appropriate techniques of psychohygiene
   <data name="Home" xml:space="preserve">
     <value>Home</value>
   </data>
-  <data name="About" xml:space="preserve">
-    <value>About</value>
-  </data>
   <data name="Contact" xml:space="preserve">
     <value>Contact</value>
   </data>
@@ -174,7 +171,7 @@ psychological serenity when coupled with appropriate techniques of psychohygiene
     <value>LoggedUser</value>
   </data>
   <data name="HealthyFoodsCopyright" xml:space="preserve">
-    <value>Healthy Foods</value>
+    <value>HealthyFoods</value>
   </data>
   <data name="RecordVoice" xml:space="preserve">
     <value>Voice record</value>
@@ -195,7 +192,7 @@ psychological serenity when coupled with appropriate techniques of psychohygiene
     <value>seconds</value>
   </data>
   <data name="FoodNotes" xml:space="preserve">
-    <value>Insert your food notes here.</value>
+    <value>Insert your food notes here. When switching to another dish, notes are not kept.</value>
   </data>
   <data name="SendEmail" xml:space="preserve">
     <value>Send Email</value>
@@ -207,6 +204,54 @@ psychological serenity when coupled with appropriate techniques of psychohygiene
     <value>Add to List</value>
   </data>
   <data name="AlreadyInList" xml:space="preserve">
-    <value>Already in list1</value>
+    <value>Already in list!</value>
+  </data>
+  <data name="FoodList" xml:space="preserve">
+    <value>List of foods:</value>
+  </data>
+  <data name="ContactEmail" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="PermaZahrada" xml:space="preserve">
+    <value>PermaZahrada.CZ</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="AboutContent" xml:space="preserve">
+    <value>The application is intended for individuals who want to eat healthier, whether to manage a medical condition or simply for preventative purposes.</value>
+  </data>
+  <data name="LearnMoreContents" xml:space="preserve">
+    <value>    &lt;p&gt;Information on the composition of raw materials and energy values was obtained using the AI program ChatGPT in September 2025. The information may be outdated in later years.
+    Examples of queries in English for the energy value of a dish and the composition of a food are:&lt;/p&gt;
+    &lt;p&gt;
+        &lt;i&gt;&lt;b&gt;What is energy value of soup made by potatoes, cabbage, onion and main food: cooked potatoes with boiled egg?&lt;/b&gt;&lt;/i&gt;&lt;br /&gt;
+        Whole Meal (Soup + Potatoes + Egg)&lt;br /&gt;
+        &lt;u&gt;≈ 355 kcal&lt;/u&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+        &lt;i&gt;&lt;b&gt;What is the composition of the cereal roll?&lt;/b&gt;&lt;/i&gt;&lt;br /&gt;
+        &lt;u&gt;Flour&lt;/u&gt; (from one or multiple cereals)&lt;br /&gt;
+        &lt;u&gt;Water&lt;/u&gt;&lt;br /&gt;
+        &lt;u&gt;Yeast&lt;/u&gt; (or &lt;u&gt;sourdough&lt;/u&gt; starter)&lt;br /&gt;
+        &lt;u&gt;Salt&lt;/u&gt;&lt;br /&gt;
+        Sometimes &lt;u&gt;sugar&lt;/u&gt;, &lt;u&gt;milk&lt;/u&gt;, &lt;u&gt;butter&lt;/u&gt;, or &lt;u&gt;oil&lt;/u&gt; for softness and flavor&lt;br /&gt;
+        Optional seeds or whole grains (&lt;u&gt;sunflower&lt;/u&gt;, &lt;u&gt;sesame&lt;/u&gt;, &lt;u&gt;flax&lt;/u&gt;, &lt;u&gt;&lt;/u&gt;, etc.) for texture and nutrition&lt;br /&gt;
+        Cereal base (&lt;u&gt;corn&lt;/u&gt;, &lt;u&gt;rice&lt;/u&gt;, &lt;u&gt;wheat&lt;/u&gt;, &lt;u&gt;oat&lt;/u&gt;, or &lt;u&gt;multigrain&lt;/u&gt;)&lt;br /&gt;
+        Binding agents (&lt;u&gt;syrup&lt;/u&gt;, &lt;u&gt;glucose&lt;/u&gt;, &lt;u&gt;honey&lt;/u&gt;, or &lt;u&gt;malt&lt;/u&gt;)&lt;br /&gt;
+        Optional fortification (&lt;u&gt;vitamins&lt;/u&gt;, &lt;u&gt;minerals&lt;/u&gt;, &lt;u&gt;fiber&lt;/u&gt;)&lt;br /&gt;
+    &lt;/p&gt;</value>
+  </data>
+  <data name="EmailCaption" xml:space="preserve">
+    <value>Send to e-mail:</value>
+  </data>
+  <data name="CancelButton" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="EnterEmail" xml:space="preserve">
+    <value>Please enter e-mail address.</value>
+  </data>
+  <data name="EmailError" xml:space="preserve">
+    <value>Failed to send email.</value>
   </data>
 </root>

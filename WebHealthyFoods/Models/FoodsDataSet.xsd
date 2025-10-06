@@ -1,0 +1,573 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="FoodsDataSet" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="25" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="healthy_foodsConnectionString8" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="healthy_foodsConnectionString8 (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.healthy_foodsConnectionString8.ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="healthy_foodsConnectionString9" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="healthy_foodsConnectionString9 (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.healthy_foodsConnectionString9.ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="healthy_foodsConnectionString10" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="healthy_foodsConnectionString10 (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.healthy_foodsConnectionString10.ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="healthy_foodsConnectionString11" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="healthy_foodsConnectionString11 (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.healthy_foodsConnectionString11.ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="healthy_foodsConnectionString12" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="healthy_foodsConnectionString12 (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.healthy_foodsConnectionString12.ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="healthy_foodsConnectionString13" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="healthy_foodsConnectionString13 (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.healthy_foodsConnectionString13.ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="healthy_foodsConnectionString14" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="healthy_foodsConnectionString14 (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.healthy_foodsConnectionString14.ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="healthy_foodsConnectionString15" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="healthy_foodsConnectionString15 (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.healthy_foodsConnectionString15.ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="healthy_foodsConnectionString16" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="healthy_foodsConnectionString16 (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.healthy_foodsConnectionString16.ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="healthy_foodsConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="healthy_foodsConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.healthy_foodsConnectionString.ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="healthy_foodsConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="healthy_foodsConnectionString1 (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.healthy_foodsConnectionString1.ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="healthy_foodsConnectionString2" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="healthy_foodsConnectionString2 (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.healthy_foodsConnectionString2.ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="healthy_foodsConnectionString3" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="healthy_foodsConnectionString3 (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.healthy_foodsConnectionString3.ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="healthy_foodsConnectionString4" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="healthy_foodsConnectionString4 (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.healthy_foodsConnectionString4.ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="healthy_foodsConnectionString5" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="healthy_foodsConnectionString5 (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.healthy_foodsConnectionString5.ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="healthy_foodsConnectionString6" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="healthy_foodsConnectionString6 (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.healthy_foodsConnectionString6.ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="healthy_foodsConnectionString7" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="healthy_foodsConnectionString7 (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.healthy_foodsConnectionString7.ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="healthy_foodsConnectionString17" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="healthy_foodsConnectionString17 (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.healthy_foodsConnectionString17.ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="healthy_foodsConnectionString18" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="healthy_foodsConnectionString18 (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.healthy_foodsConnectionString18.ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="healthy_foodsConnectionString19" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="healthy_foodsConnectionString19 (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.healthy_foodsConnectionString19.ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="healthy_foodsConnectionString20" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="healthy_foodsConnectionString20 (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.healthy_foodsConnectionString20.ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="healthy_foodsConnectionString21" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="healthy_foodsConnectionString21 (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.healthy_foodsConnectionString21.ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="healthy_foodsConnectionString22" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="healthy_foodsConnectionString22 (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.healthy_foodsConnectionString22.ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="healthy_foodsConnectionString23" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="healthy_foodsConnectionString23 (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.healthy_foodsConnectionString23.ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="healthy_foodsConnectionString24" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="healthy_foodsConnectionString24 (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.healthy_foodsConnectionString24.ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="healthy_foodsConnectionString25" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="healthy_foodsConnectionString25 (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.healthy_foodsConnectionString25.ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="typy_pokrmuTableAdapter" GeneratorDataComponentClassName="typy_pokrmuTableAdapter" Name="typy_pokrmu" UserDataComponentName="typy_pokrmuTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="healthy_foodsConnectionString9 (Web.config)" DbObjectName="healthy_foods.dbo.typy_pokrmu" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM [dbo].[typy_pokrmu] WHERE (([identifikace_typu_pokrmu] = @Original_identifikace_typu_pokrmu))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@Original_identifikace_typu_pokrmu" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="identifikace_typu_pokrmu" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [dbo].[typy_pokrmu] ([identifikace_typu_pokrmu], [nazev_typu_pokrmu]) VALUES (@identifikace_typu_pokrmu, @nazev_typu_pokrmu)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@identifikace_typu_pokrmu" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="identifikace_typu_pokrmu" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@nazev_typu_pokrmu" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="nazev_typu_pokrmu" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT identifikace_typu_pokrmu, nazev_typu_pokrmu FROM dbo.typy_pokrmu</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE [dbo].[typy_pokrmu] SET [identifikace_typu_pokrmu] = @identifikace_typu_pokrmu, [nazev_typu_pokrmu] = @nazev_typu_pokrmu WHERE (([identifikace_typu_pokrmu] = @Original_identifikace_typu_pokrmu))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@identifikace_typu_pokrmu" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="identifikace_typu_pokrmu" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@nazev_typu_pokrmu" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="nazev_typu_pokrmu" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@Original_identifikace_typu_pokrmu" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="identifikace_typu_pokrmu" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="identifikace_typu_pokrmu" DataSetColumn="identifikace_typu_pokrmu" />
+              <Mapping SourceColumn="nazev_typu_pokrmu" DataSetColumn="nazev_typu_pokrmu" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="casove_jednotkyTableAdapter" GeneratorDataComponentClassName="casove_jednotkyTableAdapter" Name="casove_jednotky" UserDataComponentName="casove_jednotkyTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="healthy_foodsConnectionString10 (Web.config)" DbObjectName="healthy_foods.dbo.casove_jednotky" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM [dbo].[casove_jednotky] WHERE (([identifikace_casove_jednotky] = @Original_identifikace_casove_jednotky))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@Original_identifikace_casove_jednotky" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="identifikace_casove_jednotky" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [dbo].[casove_jednotky] ([identifikace_casove_jednotky], [nazev_casove_jednotky]) VALUES (@identifikace_casove_jednotky, @nazev_casove_jednotky)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@identifikace_casove_jednotky" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="identifikace_casove_jednotky" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@nazev_casove_jednotky" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="nazev_casove_jednotky" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT identifikace_casove_jednotky, nazev_casove_jednotky FROM dbo.casove_jednotky</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE [dbo].[casove_jednotky] SET [identifikace_casove_jednotky] = @identifikace_casove_jednotky, [nazev_casove_jednotky] = @nazev_casove_jednotky WHERE (([identifikace_casove_jednotky] = @Original_identifikace_casove_jednotky))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@identifikace_casove_jednotky" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="identifikace_casove_jednotky" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@nazev_casove_jednotky" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="nazev_casove_jednotky" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@Original_identifikace_casove_jednotky" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="identifikace_casove_jednotky" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="identifikace_casove_jednotky" DataSetColumn="identifikace_casove_jednotky" />
+              <Mapping SourceColumn="nazev_casove_jednotky" DataSetColumn="nazev_casove_jednotky" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="energeticke_jednotkyTableAdapter" GeneratorDataComponentClassName="energeticke_jednotkyTableAdapter" Name="energeticke_jednotky" UserDataComponentName="energeticke_jednotkyTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="healthy_foodsConnectionString11 (Web.config)" DbObjectName="healthy_foods.dbo.energeticke_jednotky" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM [dbo].[energeticke_jednotky] WHERE (([identifikace_energeticke_jednotky] = @Original_identifikace_energeticke_jednotky))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@Original_identifikace_energeticke_jednotky" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="identifikace_energeticke_jednotky" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [dbo].[energeticke_jednotky] ([identifikace_energeticke_jednotky], [nazev_energeticke_jednotky]) VALUES (@identifikace_energeticke_jednotky, @nazev_energeticke_jednotky)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@identifikace_energeticke_jednotky" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="identifikace_energeticke_jednotky" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@nazev_energeticke_jednotky" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="nazev_energeticke_jednotky" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT identifikace_energeticke_jednotky, nazev_energeticke_jednotky FROM dbo.energeticke_jednotky</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE [dbo].[energeticke_jednotky] SET [identifikace_energeticke_jednotky] = @identifikace_energeticke_jednotky, [nazev_energeticke_jednotky] = @nazev_energeticke_jednotky WHERE (([identifikace_energeticke_jednotky] = @Original_identifikace_energeticke_jednotky))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@identifikace_energeticke_jednotky" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="identifikace_energeticke_jednotky" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@nazev_energeticke_jednotky" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="nazev_energeticke_jednotky" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@Original_identifikace_energeticke_jednotky" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="identifikace_energeticke_jednotky" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="identifikace_energeticke_jednotky" DataSetColumn="identifikace_energeticke_jednotky" />
+              <Mapping SourceColumn="nazev_energeticke_jednotky" DataSetColumn="nazev_energeticke_jednotky" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="typy_surovinTableAdapter" GeneratorDataComponentClassName="typy_surovinTableAdapter" Name="typy_surovin" UserDataComponentName="typy_surovinTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="healthy_foodsConnectionString14 (Web.config)" DbObjectName="healthy_foods.dbo.typy_surovin" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM [dbo].[typy_surovin] WHERE (([identifikace_typu_suroviny] = @Original_identifikace_typu_suroviny))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@Original_identifikace_typu_suroviny" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="identifikace_typu_suroviny" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [dbo].[typy_surovin] ([identifikace_typu_suroviny], [nazev_typu_suroviny]) VALUES (@identifikace_typu_suroviny, @nazev_typu_suroviny)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@identifikace_typu_suroviny" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="identifikace_typu_suroviny" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@nazev_typu_suroviny" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="nazev_typu_suroviny" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT identifikace_typu_suroviny, nazev_typu_suroviny FROM dbo.typy_surovin</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE [dbo].[typy_surovin] SET [identifikace_typu_suroviny] = @identifikace_typu_suroviny, [nazev_typu_suroviny] = @nazev_typu_suroviny WHERE (([identifikace_typu_suroviny] = @Original_identifikace_typu_suroviny))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@identifikace_typu_suroviny" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="identifikace_typu_suroviny" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@nazev_typu_suroviny" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="nazev_typu_suroviny" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@Original_identifikace_typu_suroviny" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="identifikace_typu_suroviny" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="identifikace_typu_suroviny" DataSetColumn="identifikace_typu_suroviny" />
+              <Mapping SourceColumn="nazev_typu_suroviny" DataSetColumn="nazev_typu_suroviny" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="receptyTableAdapter" GeneratorDataComponentClassName="receptyTableAdapter" Name="recepty" UserDataComponentName="receptyTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="healthy_foodsConnectionString18 (Web.config)" DbObjectName="healthy_foods.dbo.recepty" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [dbo].[recepty] ([identifikace_receptu], [identifikace_typu_pokrmu], [nadpis], [doba_pripravy], [identifikace_casove_jednotky], [energeticka_hodnota], [identifikace_energeticke_jednotky], [priprava]) VALUES (@identifikace_receptu, @identifikace_typu_pokrmu, @nadpis, @doba_pripravy, @identifikace_casove_jednotky, @energeticka_hodnota, @identifikace_energeticke_jednotky, @priprava)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@identifikace_receptu" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="identifikace_receptu" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@identifikace_typu_pokrmu" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="identifikace_typu_pokrmu" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@nadpis" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="nadpis" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Single" Direction="Input" ParameterName="@doba_pripravy" Precision="0" ProviderType="Real" Scale="0" Size="0" SourceColumn="doba_pripravy" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@identifikace_casove_jednotky" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="identifikace_casove_jednotky" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Single" Direction="Input" ParameterName="@energeticka_hodnota" Precision="0" ProviderType="Real" Scale="0" Size="0" SourceColumn="energeticka_hodnota" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Int64" Direction="Input" ParameterName="@identifikace_energeticke_jednotky" Precision="0" ProviderType="BigInt" Scale="0" Size="0" SourceColumn="identifikace_energeticke_jednotky" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="AnsiString" Direction="Input" ParameterName="@priprava" Precision="0" ProviderType="VarChar" Scale="0" Size="0" SourceColumn="priprava" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT identifikace_receptu, identifikace_typu_pokrmu, nadpis, doba_pripravy, identifikace_casove_jednotky, energeticka_hodnota, identifikace_energeticke_jednotky, priprava FROM dbo.recepty</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="identifikace_receptu" DataSetColumn="identifikace_receptu" />
+              <Mapping SourceColumn="identifikace_typu_pokrmu" DataSetColumn="identifikace_typu_pokrmu" />
+              <Mapping SourceColumn="nadpis" DataSetColumn="nadpis" />
+              <Mapping SourceColumn="doba_pripravy" DataSetColumn="doba_pripravy" />
+              <Mapping SourceColumn="identifikace_casove_jednotky" DataSetColumn="identifikace_casove_jednotky" />
+              <Mapping SourceColumn="energeticka_hodnota" DataSetColumn="energeticka_hodnota" />
+              <Mapping SourceColumn="identifikace_energeticke_jednotky" DataSetColumn="identifikace_energeticke_jednotky" />
+              <Mapping SourceColumn="priprava" DataSetColumn="priprava" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="slozky_surovinTableAdapter" GeneratorDataComponentClassName="slozky_surovinTableAdapter" Name="slozky_surovin" UserDataComponentName="slozky_surovinTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="healthy_foodsConnectionString22 (Web.config)" DbObjectName="healthy_foods.dbo.slozky_surovin" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM [dbo].[slozky_surovin] WHERE (([identifikace_suroviny] = @Original_identifikace_suroviny) AND ([identifikace_slozky] = @Original_identifikace_slozky))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Byte" Direction="Input" ParameterName="@Original_identifikace_suroviny" Precision="0" ProviderType="TinyInt" Scale="0" Size="0" SourceColumn="identifikace_suroviny" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Byte" Direction="Input" ParameterName="@Original_identifikace_slozky" Precision="0" ProviderType="TinyInt" Scale="0" Size="0" SourceColumn="identifikace_slozky" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [dbo].[slozky_surovin] ([identifikace_suroviny], [identifikace_slozky]) VALUES (@identifikace_suroviny, @identifikace_slozky)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Byte" Direction="Input" ParameterName="@identifikace_suroviny" Precision="0" ProviderType="TinyInt" Scale="0" Size="0" SourceColumn="identifikace_suroviny" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Byte" Direction="Input" ParameterName="@identifikace_slozky" Precision="0" ProviderType="TinyInt" Scale="0" Size="0" SourceColumn="identifikace_slozky" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT identifikace_suroviny, identifikace_slozky FROM dbo.slozky_surovin</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE [dbo].[slozky_surovin] SET [identifikace_suroviny] = @identifikace_suroviny, [identifikace_slozky] = @identifikace_slozky WHERE (([identifikace_suroviny] = @Original_identifikace_suroviny) AND ([identifikace_slozky] = @Original_identifikace_slozky))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Byte" Direction="Input" ParameterName="@identifikace_suroviny" Precision="0" ProviderType="TinyInt" Scale="0" Size="0" SourceColumn="identifikace_suroviny" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Byte" Direction="Input" ParameterName="@identifikace_slozky" Precision="0" ProviderType="TinyInt" Scale="0" Size="0" SourceColumn="identifikace_slozky" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Byte" Direction="Input" ParameterName="@Original_identifikace_suroviny" Precision="0" ProviderType="TinyInt" Scale="0" Size="0" SourceColumn="identifikace_suroviny" SourceColumnNullMapping="false" SourceVersion="Original" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Byte" Direction="Input" ParameterName="@Original_identifikace_slozky" Precision="0" ProviderType="TinyInt" Scale="0" Size="0" SourceColumn="identifikace_slozky" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="identifikace_suroviny" DataSetColumn="identifikace_suroviny" />
+              <Mapping SourceColumn="identifikace_slozky" DataSetColumn="identifikace_slozky" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="surovinyTableAdapter" GeneratorDataComponentClassName="surovinyTableAdapter" Name="suroviny" UserDataComponentName="surovinyTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="healthy_foodsConnectionString24 (Web.config)" DbObjectName="healthy_foods.dbo.suroviny" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM [dbo].[suroviny] WHERE (([identifikace_suroviny] = @Original_identifikace_suroviny))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Byte" Direction="Input" ParameterName="@Original_identifikace_suroviny" Precision="0" ProviderType="TinyInt" Scale="0" Size="0" SourceColumn="identifikace_suroviny" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [dbo].[suroviny] ([identifikace_suroviny], [popis_suroviny], [identifikace_typu_suroviny], [energeticka_hodnota], [identifikace_energeticke_jednotky]) VALUES (@identifikace_suroviny, @popis_suroviny, @identifikace_typu_suroviny, @energeticka_hodnota, @identifikace_energeticke_jednotky)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Byte" Direction="Input" ParameterName="@identifikace_suroviny" Precision="0" ProviderType="TinyInt" Scale="0" Size="0" SourceColumn="identifikace_suroviny" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@popis_suroviny" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="popis_suroviny" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Byte" Direction="Input" ParameterName="@identifikace_typu_suroviny" Precision="0" ProviderType="TinyInt" Scale="0" Size="0" SourceColumn="identifikace_typu_suroviny" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@energeticka_hodnota" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="energeticka_hodnota" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Byte" Direction="Input" ParameterName="@identifikace_energeticke_jednotky" Precision="0" ProviderType="TinyInt" Scale="0" Size="0" SourceColumn="identifikace_energeticke_jednotky" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT identifikace_suroviny, popis_suroviny, identifikace_typu_suroviny, energeticka_hodnota, identifikace_energeticke_jednotky FROM dbo.suroviny</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE [dbo].[suroviny] SET [identifikace_suroviny] = @identifikace_suroviny, [popis_suroviny] = @popis_suroviny, [identifikace_typu_suroviny] = @identifikace_typu_suroviny, [energeticka_hodnota] = @energeticka_hodnota, [identifikace_energeticke_jednotky] = @identifikace_energeticke_jednotky WHERE (([identifikace_suroviny] = @Original_identifikace_suroviny))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Byte" Direction="Input" ParameterName="@identifikace_suroviny" Precision="0" ProviderType="TinyInt" Scale="0" Size="0" SourceColumn="identifikace_suroviny" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@popis_suroviny" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="popis_suroviny" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Byte" Direction="Input" ParameterName="@identifikace_typu_suroviny" Precision="0" ProviderType="TinyInt" Scale="0" Size="0" SourceColumn="identifikace_typu_suroviny" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@energeticka_hodnota" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="energeticka_hodnota" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Byte" Direction="Input" ParameterName="@identifikace_energeticke_jednotky" Precision="0" ProviderType="TinyInt" Scale="0" Size="0" SourceColumn="identifikace_energeticke_jednotky" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Byte" Direction="Input" ParameterName="@Original_identifikace_suroviny" Precision="0" ProviderType="TinyInt" Scale="0" Size="0" SourceColumn="identifikace_suroviny" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="identifikace_suroviny" DataSetColumn="identifikace_suroviny" />
+              <Mapping SourceColumn="popis_suroviny" DataSetColumn="popis_suroviny" />
+              <Mapping SourceColumn="identifikace_typu_suroviny" DataSetColumn="identifikace_typu_suroviny" />
+              <Mapping SourceColumn="energeticka_hodnota" DataSetColumn="energeticka_hodnota" />
+              <Mapping SourceColumn="identifikace_energeticke_jednotky" DataSetColumn="identifikace_energeticke_jednotky" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="slozkyTableAdapter" GeneratorDataComponentClassName="slozkyTableAdapter" Name="slozky" UserDataComponentName="slozkyTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="healthy_foodsConnectionString25 (Web.config)" DbObjectName="healthy_foods.dbo.slozky" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <DeleteCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>DELETE FROM [dbo].[slozky] WHERE (([identifikace_slozky] = @Original_identifikace_slozky))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Byte" Direction="Input" ParameterName="@Original_identifikace_slozky" Precision="0" ProviderType="TinyInt" Scale="0" Size="0" SourceColumn="identifikace_slozky" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </DeleteCommand>
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [dbo].[slozky] ([identifikace_slozky], [nazev_slozky], [nazev_slozky_en], [pusobeni_slozky]) VALUES (@identifikace_slozky, @nazev_slozky, @nazev_slozky_en, @pusobeni_slozky)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Byte" Direction="Input" ParameterName="@identifikace_slozky" Precision="0" ProviderType="TinyInt" Scale="0" Size="0" SourceColumn="identifikace_slozky" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@nazev_slozky" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="nazev_slozky" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@nazev_slozky_en" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="nazev_slozky_en" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@pusobeni_slozky" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="pusobeni_slozky" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT identifikace_slozky, nazev_slozky, nazev_slozky_en, pusobeni_slozky FROM dbo.slozky</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+                <UpdateCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>UPDATE [dbo].[slozky] SET [identifikace_slozky] = @identifikace_slozky, [nazev_slozky] = @nazev_slozky, [nazev_slozky_en] = @nazev_slozky_en, [pusobeni_slozky] = @pusobeni_slozky WHERE (([identifikace_slozky] = @Original_identifikace_slozky))</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Byte" Direction="Input" ParameterName="@identifikace_slozky" Precision="0" ProviderType="TinyInt" Scale="0" Size="0" SourceColumn="identifikace_slozky" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@nazev_slozky" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="nazev_slozky" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@nazev_slozky_en" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="nazev_slozky_en" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@pusobeni_slozky" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="pusobeni_slozky" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="Byte" Direction="Input" ParameterName="@Original_identifikace_slozky" Precision="0" ProviderType="TinyInt" Scale="0" Size="0" SourceColumn="identifikace_slozky" SourceColumnNullMapping="false" SourceVersion="Original" />
+                    </Parameters>
+                  </DbCommand>
+                </UpdateCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="identifikace_slozky" DataSetColumn="identifikace_slozky" />
+              <Mapping SourceColumn="nazev_slozky" DataSetColumn="nazev_slozky" />
+              <Mapping SourceColumn="nazev_slozky_en" DataSetColumn="nazev_slozky_en" />
+              <Mapping SourceColumn="pusobeni_slozky" DataSetColumn="pusobeni_slozky" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="FoodsDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="FoodsDataSet" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="FoodsDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="typy_pokrmu" msprop:Generator_RowEvHandlerName="typy_pokrmuRowChangeEventHandler" msprop:Generator_RowDeletedName="typy_pokrmuRowDeleted" msprop:Generator_RowDeletingName="typy_pokrmuRowDeleting" msprop:Generator_RowEvArgName="typy_pokrmuRowChangeEvent" msprop:Generator_TablePropName="typy_pokrmu" msprop:Generator_RowChangedName="typy_pokrmuRowChanged" msprop:Generator_UserTableName="typy_pokrmu" msprop:Generator_RowChangingName="typy_pokrmuRowChanging" msprop:Generator_RowClassName="typy_pokrmuRow" msprop:Generator_TableClassName="typy_pokrmuDataTable" msprop:Generator_TableVarName="tabletypy_pokrmu">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="identifikace_typu_pokrmu" msprop:Generator_ColumnPropNameInTable="identifikace_typu_pokrmuColumn" msprop:Generator_ColumnPropNameInRow="identifikace_typu_pokrmu" msprop:Generator_UserColumnName="identifikace_typu_pokrmu" msprop:Generator_ColumnVarNameInTable="columnidentifikace_typu_pokrmu" type="xs:long" />
+              <xs:element name="nazev_typu_pokrmu" msprop:Generator_ColumnPropNameInTable="nazev_typu_pokrmuColumn" msprop:Generator_ColumnPropNameInRow="nazev_typu_pokrmu" msprop:Generator_UserColumnName="nazev_typu_pokrmu" msprop:Generator_ColumnVarNameInTable="columnnazev_typu_pokrmu">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="casove_jednotky" msprop:Generator_RowEvHandlerName="casove_jednotkyRowChangeEventHandler" msprop:Generator_RowDeletedName="casove_jednotkyRowDeleted" msprop:Generator_RowDeletingName="casove_jednotkyRowDeleting" msprop:Generator_RowEvArgName="casove_jednotkyRowChangeEvent" msprop:Generator_TablePropName="casove_jednotky" msprop:Generator_RowChangedName="casove_jednotkyRowChanged" msprop:Generator_UserTableName="casove_jednotky" msprop:Generator_RowChangingName="casove_jednotkyRowChanging" msprop:Generator_RowClassName="casove_jednotkyRow" msprop:Generator_TableClassName="casove_jednotkyDataTable" msprop:Generator_TableVarName="tablecasove_jednotky">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="identifikace_casove_jednotky" msprop:Generator_ColumnPropNameInTable="identifikace_casove_jednotkyColumn" msprop:Generator_ColumnPropNameInRow="identifikace_casove_jednotky" msprop:Generator_UserColumnName="identifikace_casove_jednotky" msprop:Generator_ColumnVarNameInTable="columnidentifikace_casove_jednotky" type="xs:long" />
+              <xs:element name="nazev_casove_jednotky" msprop:Generator_ColumnPropNameInTable="nazev_casove_jednotkyColumn" msprop:Generator_ColumnPropNameInRow="nazev_casove_jednotky" msprop:Generator_UserColumnName="nazev_casove_jednotky" msprop:Generator_ColumnVarNameInTable="columnnazev_casove_jednotky">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="energeticke_jednotky" msprop:Generator_RowEvHandlerName="energeticke_jednotkyRowChangeEventHandler" msprop:Generator_RowDeletedName="energeticke_jednotkyRowDeleted" msprop:Generator_RowDeletingName="energeticke_jednotkyRowDeleting" msprop:Generator_RowEvArgName="energeticke_jednotkyRowChangeEvent" msprop:Generator_TablePropName="energeticke_jednotky" msprop:Generator_RowChangedName="energeticke_jednotkyRowChanged" msprop:Generator_UserTableName="energeticke_jednotky" msprop:Generator_RowChangingName="energeticke_jednotkyRowChanging" msprop:Generator_RowClassName="energeticke_jednotkyRow" msprop:Generator_TableClassName="energeticke_jednotkyDataTable" msprop:Generator_TableVarName="tableenergeticke_jednotky">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="identifikace_energeticke_jednotky" msprop:Generator_ColumnPropNameInTable="identifikace_energeticke_jednotkyColumn" msprop:Generator_ColumnPropNameInRow="identifikace_energeticke_jednotky" msprop:Generator_UserColumnName="identifikace_energeticke_jednotky" msprop:Generator_ColumnVarNameInTable="columnidentifikace_energeticke_jednotky" type="xs:long" />
+              <xs:element name="nazev_energeticke_jednotky" msprop:Generator_ColumnPropNameInTable="nazev_energeticke_jednotkyColumn" msprop:Generator_ColumnPropNameInRow="nazev_energeticke_jednotky" msprop:Generator_UserColumnName="nazev_energeticke_jednotky" msprop:Generator_ColumnVarNameInTable="columnnazev_energeticke_jednotky">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="typy_surovin" msprop:Generator_RowEvHandlerName="typy_surovinRowChangeEventHandler" msprop:Generator_RowDeletedName="typy_surovinRowDeleted" msprop:Generator_RowDeletingName="typy_surovinRowDeleting" msprop:Generator_RowEvArgName="typy_surovinRowChangeEvent" msprop:Generator_TablePropName="typy_surovin" msprop:Generator_RowChangedName="typy_surovinRowChanged" msprop:Generator_UserTableName="typy_surovin" msprop:Generator_RowChangingName="typy_surovinRowChanging" msprop:Generator_RowClassName="typy_surovinRow" msprop:Generator_TableClassName="typy_surovinDataTable" msprop:Generator_TableVarName="tabletypy_surovin">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="identifikace_typu_suroviny" msprop:Generator_ColumnPropNameInTable="identifikace_typu_surovinyColumn" msprop:Generator_ColumnPropNameInRow="identifikace_typu_suroviny" msprop:Generator_UserColumnName="identifikace_typu_suroviny" msprop:Generator_ColumnVarNameInTable="columnidentifikace_typu_suroviny" type="xs:long" />
+              <xs:element name="nazev_typu_suroviny" msprop:Generator_ColumnPropNameInTable="nazev_typu_surovinyColumn" msprop:Generator_ColumnPropNameInRow="nazev_typu_suroviny" msprop:Generator_UserColumnName="nazev_typu_suroviny" msprop:Generator_ColumnVarNameInTable="columnnazev_typu_suroviny">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="recepty" msprop:Generator_RowEvHandlerName="receptyRowChangeEventHandler" msprop:Generator_RowDeletedName="receptyRowDeleted" msprop:Generator_RowDeletingName="receptyRowDeleting" msprop:Generator_RowEvArgName="receptyRowChangeEvent" msprop:Generator_TablePropName="recepty" msprop:Generator_RowChangedName="receptyRowChanged" msprop:Generator_UserTableName="recepty" msprop:Generator_RowChangingName="receptyRowChanging" msprop:Generator_RowClassName="receptyRow" msprop:Generator_TableClassName="receptyDataTable" msprop:Generator_TableVarName="tablerecepty">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="identifikace_receptu" msprop:Generator_ColumnPropNameInTable="identifikace_receptuColumn" msprop:Generator_ColumnPropNameInRow="identifikace_receptu" msprop:Generator_UserColumnName="identifikace_receptu" msprop:Generator_ColumnVarNameInTable="columnidentifikace_receptu" type="xs:long" />
+              <xs:element name="identifikace_typu_pokrmu" msprop:Generator_ColumnPropNameInTable="identifikace_typu_pokrmuColumn" msprop:Generator_ColumnPropNameInRow="identifikace_typu_pokrmu" msprop:Generator_UserColumnName="identifikace_typu_pokrmu" msprop:Generator_ColumnVarNameInTable="columnidentifikace_typu_pokrmu" type="xs:long" />
+              <xs:element name="nadpis" msprop:Generator_ColumnPropNameInTable="nadpisColumn" msprop:Generator_ColumnPropNameInRow="nadpis" msprop:Generator_UserColumnName="nadpis" msprop:Generator_ColumnVarNameInTable="columnnadpis">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="doba_pripravy" msprop:Generator_ColumnPropNameInTable="doba_pripravyColumn" msprop:Generator_ColumnPropNameInRow="doba_pripravy" msprop:Generator_UserColumnName="doba_pripravy" msprop:Generator_ColumnVarNameInTable="columndoba_pripravy" type="xs:float" />
+              <xs:element name="identifikace_casove_jednotky" msprop:Generator_ColumnPropNameInTable="identifikace_casove_jednotkyColumn" msprop:Generator_ColumnPropNameInRow="identifikace_casove_jednotky" msprop:Generator_UserColumnName="identifikace_casove_jednotky" msprop:Generator_ColumnVarNameInTable="columnidentifikace_casove_jednotky" type="xs:long" />
+              <xs:element name="energeticka_hodnota" msprop:Generator_ColumnPropNameInTable="energeticka_hodnotaColumn" msprop:Generator_ColumnPropNameInRow="energeticka_hodnota" msprop:Generator_UserColumnName="energeticka_hodnota" msprop:Generator_ColumnVarNameInTable="columnenergeticka_hodnota" type="xs:float" />
+              <xs:element name="identifikace_energeticke_jednotky" msprop:Generator_ColumnPropNameInTable="identifikace_energeticke_jednotkyColumn" msprop:Generator_ColumnPropNameInRow="identifikace_energeticke_jednotky" msprop:Generator_UserColumnName="identifikace_energeticke_jednotky" msprop:Generator_ColumnVarNameInTable="columnidentifikace_energeticke_jednotky" type="xs:long" />
+              <xs:element name="priprava" msprop:Generator_ColumnPropNameInTable="pripravaColumn" msprop:Generator_ColumnPropNameInRow="priprava" msprop:Generator_UserColumnName="priprava" msprop:Generator_ColumnVarNameInTable="columnpriprava">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2147483647" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="slozky_surovin" msprop:Generator_RowEvHandlerName="slozky_surovinRowChangeEventHandler" msprop:Generator_RowDeletedName="slozky_surovinRowDeleted" msprop:Generator_RowDeletingName="slozky_surovinRowDeleting" msprop:Generator_RowEvArgName="slozky_surovinRowChangeEvent" msprop:Generator_TablePropName="slozky_surovin" msprop:Generator_RowChangedName="slozky_surovinRowChanged" msprop:Generator_UserTableName="slozky_surovin" msprop:Generator_RowChangingName="slozky_surovinRowChanging" msprop:Generator_RowClassName="slozky_surovinRow" msprop:Generator_TableClassName="slozky_surovinDataTable" msprop:Generator_TableVarName="tableslozky_surovin">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="identifikace_suroviny" msprop:Generator_ColumnPropNameInTable="identifikace_surovinyColumn" msprop:Generator_ColumnPropNameInRow="identifikace_suroviny" msprop:Generator_UserColumnName="identifikace_suroviny" msprop:Generator_ColumnVarNameInTable="columnidentifikace_suroviny" type="xs:unsignedByte" />
+              <xs:element name="identifikace_slozky" msprop:Generator_ColumnPropNameInTable="identifikace_slozkyColumn" msprop:Generator_ColumnPropNameInRow="identifikace_slozky" msprop:Generator_UserColumnName="identifikace_slozky" msprop:Generator_ColumnVarNameInTable="columnidentifikace_slozky" type="xs:unsignedByte" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="suroviny" msprop:Generator_RowClassName="surovinyRow" msprop:Generator_RowEvHandlerName="surovinyRowChangeEventHandler" msprop:Generator_RowDeletedName="surovinyRowDeleted" msprop:Generator_RowDeletingName="surovinyRowDeleting" msprop:Generator_RowEvArgName="surovinyRowChangeEvent" msprop:Generator_TablePropName="suroviny" msprop:Generator_RowChangedName="surovinyRowChanged" msprop:Generator_UserTableName="suroviny" msprop:Generator_RowChangingName="surovinyRowChanging" msprop:Generator_TableClassName="surovinyDataTable" msprop:Generator_TableVarName="tablesuroviny">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="identifikace_suroviny" msprop:Generator_UserColumnName="identifikace_suroviny" msprop:Generator_ColumnPropNameInTable="identifikace_surovinyColumn" msprop:Generator_ColumnPropNameInRow="identifikace_suroviny" msprop:Generator_ColumnVarNameInTable="columnidentifikace_suroviny" type="xs:unsignedByte" />
+              <xs:element name="popis_suroviny" msprop:Generator_UserColumnName="popis_suroviny" msprop:Generator_ColumnPropNameInTable="popis_surovinyColumn" msprop:Generator_ColumnPropNameInRow="popis_suroviny" msprop:Generator_ColumnVarNameInTable="columnpopis_suroviny">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="identifikace_typu_suroviny" msprop:Generator_UserColumnName="identifikace_typu_suroviny" msprop:Generator_ColumnPropNameInTable="identifikace_typu_surovinyColumn" msprop:Generator_ColumnPropNameInRow="identifikace_typu_suroviny" msprop:Generator_ColumnVarNameInTable="columnidentifikace_typu_suroviny" type="xs:unsignedByte" />
+              <xs:element name="energeticka_hodnota" msprop:Generator_UserColumnName="energeticka_hodnota" msprop:Generator_ColumnPropNameInTable="energeticka_hodnotaColumn" msprop:Generator_ColumnPropNameInRow="energeticka_hodnota" msprop:Generator_ColumnVarNameInTable="columnenergeticka_hodnota" type="xs:double" />
+              <xs:element name="identifikace_energeticke_jednotky" msprop:Generator_UserColumnName="identifikace_energeticke_jednotky" msprop:Generator_ColumnPropNameInTable="identifikace_energeticke_jednotkyColumn" msprop:Generator_ColumnPropNameInRow="identifikace_energeticke_jednotky" msprop:Generator_ColumnVarNameInTable="columnidentifikace_energeticke_jednotky" type="xs:unsignedByte" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="slozky" msprop:Generator_RowEvHandlerName="slozkyRowChangeEventHandler" msprop:Generator_RowDeletedName="slozkyRowDeleted" msprop:Generator_RowDeletingName="slozkyRowDeleting" msprop:Generator_RowEvArgName="slozkyRowChangeEvent" msprop:Generator_TablePropName="slozky" msprop:Generator_RowChangedName="slozkyRowChanged" msprop:Generator_RowChangingName="slozkyRowChanging" msprop:Generator_TableClassName="slozkyDataTable" msprop:Generator_RowClassName="slozkyRow" msprop:Generator_TableVarName="tableslozky" msprop:Generator_UserTableName="slozky">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="identifikace_slozky" msprop:Generator_ColumnPropNameInRow="identifikace_slozky" msprop:Generator_ColumnPropNameInTable="identifikace_slozkyColumn" msprop:Generator_ColumnVarNameInTable="columnidentifikace_slozky" msprop:Generator_UserColumnName="identifikace_slozky" type="xs:unsignedByte" />
+              <xs:element name="nazev_slozky" msprop:Generator_ColumnPropNameInRow="nazev_slozky" msprop:Generator_ColumnPropNameInTable="nazev_slozkyColumn" msprop:Generator_ColumnVarNameInTable="columnnazev_slozky" msprop:Generator_UserColumnName="nazev_slozky">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nazev_slozky_en" msprop:Generator_ColumnPropNameInRow="nazev_slozky_en" msprop:Generator_ColumnPropNameInTable="nazev_slozky_enColumn" msprop:Generator_ColumnVarNameInTable="columnnazev_slozky_en" msprop:Generator_UserColumnName="nazev_slozky_en">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="pusobeni_slozky" msprop:Generator_ColumnPropNameInRow="pusobeni_slozky" msprop:Generator_ColumnPropNameInTable="pusobeni_slozkyColumn" msprop:Generator_ColumnVarNameInTable="columnpusobeni_slozky" msprop:Generator_UserColumnName="pusobeni_slozky" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:typy_pokrmu" />
+      <xs:field xpath="mstns:identifikace_typu_pokrmu" />
+    </xs:unique>
+    <xs:unique name="casove_jednotky_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:casove_jednotky" />
+      <xs:field xpath="mstns:identifikace_casove_jednotky" />
+    </xs:unique>
+    <xs:unique name="energeticke_jednotky_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:energeticke_jednotky" />
+      <xs:field xpath="mstns:identifikace_energeticke_jednotky" />
+    </xs:unique>
+    <xs:unique name="typy_surovin_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:typy_surovin" />
+      <xs:field xpath="mstns:identifikace_typu_suroviny" />
+    </xs:unique>
+    <xs:unique name="slozky_surovin_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:slozky_surovin" />
+      <xs:field xpath="mstns:identifikace_suroviny" />
+      <xs:field xpath="mstns:identifikace_slozky" />
+    </xs:unique>
+    <xs:unique name="suroviny_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:suroviny" />
+      <xs:field xpath="mstns:identifikace_suroviny" />
+    </xs:unique>
+    <xs:unique name="slozky_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:slozky" />
+      <xs:field xpath="mstns:identifikace_slozky" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

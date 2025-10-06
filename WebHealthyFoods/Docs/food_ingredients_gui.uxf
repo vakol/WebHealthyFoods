@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>7</zoom_level>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>133</x>
+      <y>112</y>
+      <w>490</w>
+      <h>483</h>
+    </coordinates>
+    <panel_attributes>Složky potravin
+--
+
+bg=GRAY
+layer=-1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>217</x>
+      <y>161</y>
+      <w>329</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>Potravina (COMBOBOX)
+transparency=10
+bg=TRANSPARENT
+layer=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>217</x>
+      <y>231</y>
+      <w>329</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>
+
+
+
+
+Seznam potravin
+(LISTBOX)
+layer=3
+transparency=10
+bg=TRANSPARENT</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>217</x>
+      <y>399</y>
+      <w>329</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>
+
+
+
+
+Složky potravin
+(LISTBOX)
+
+
+layer=3
+transparency=10
+bg=TRANSPARENT</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>336</x>
+      <y>546</y>
+      <w>84</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>Poslat e-mailem
+layer=3
+transparency=10
+bg=LIGHT_GRAY</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>329</x>
+      <y>196</y>
+      <w>105</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>Přidat do seznamu
+layer=3
+transparency=10
+bg=LIGHT_GRAY</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>525</x>
+      <y>161</y>
+      <w>21</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>V
+layer=3
+transparency=10
+bg=TRANSPARENT</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>343</x>
+      <y>371</y>
+      <w>84</w>
+      <h>21</h>
+    </coordinates>
+    <panel_attributes>Složky potravin
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
