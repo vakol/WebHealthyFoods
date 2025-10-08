@@ -5,4 +5,4 @@ Tato webová aplikace vám pomůže kontrolovat příjem zdravých potravin.
 - Výstupy můžete posílat do vaší e-mailové schránky.
 <br>
 <img src="./assets/healthy_foods_web.gif" alt="Webová aplikace Healthy Foods"/>
-<h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.healthyfoods.online/">► Přejít na webovou aplikaci "Healthy Foods" ◄</a></h3>
+<h3>&nbsp;&nbsp;&nbsp;<a href="https://www.healthyfoods.online/">► Přejít na webovou aplikaci "Healthy Foods" ◄</a></h3>
