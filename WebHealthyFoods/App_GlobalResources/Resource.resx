@@ -147,7 +147,7 @@
   <data name="RelatedLinks" xml:space="preserve">
     <value />
   </data>
-  <data name="PermaCultureLinks" xml:space="preserve">
+  <data name="RelatedLinksContent" xml:space="preserve">
     <value />
   </data>
   <data name="WheatonLabs" xml:space="preserve">
@@ -156,7 +156,7 @@
   <data name="AgrovoltaicTractor" xml:space="preserve">
     <value />
   </data>
-  <data name="HealthyFoodsNecessarily" xml:space="preserve">
+  <data name="HealthyFoodsEssential" xml:space="preserve">
     <value />
   </data>
   <data name="Home" xml:space="preserve">
@@ -208,9 +208,6 @@
     <value />
   </data>
   <data name="ContactEmail" xml:space="preserve">
-    <value />
-  </data>
-  <data name="PermaZahrada" xml:space="preserve">
     <value />
   </data>
   <data name="About" xml:space="preserve">

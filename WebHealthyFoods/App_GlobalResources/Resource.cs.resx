@@ -130,7 +130,7 @@
     <value>Příprava potravin</value>
   </data>
   <data name="PrepareFoodsDescription" xml:space="preserve">
-    <value>Příprava jídla, je-li založena na logickém základě, může pomoci zvýšit
+    <value>Příprava jídla založená na promyšleném přístupu, může pomoci zvýšit
 osobní zdraví jednotlivce.</value>
   </data>
   <data name="LearnMore" xml:space="preserve">
@@ -148,7 +148,7 @@ osobní zdraví jednotlivce.</value>
   <data name="RelatedLinks" xml:space="preserve">
     <value>Související odkazy</value>
   </data>
-  <data name="PermaCultureLinks" xml:space="preserve">
+  <data name="RelatedLinksContent" xml:space="preserve">
     <value>Nejlepší způsob, jak získat zdravé potraviny, je jejich pěstování na vlastní malé zahradě. </value>
   </data>
   <data name="WheatonLabs" xml:space="preserve">
@@ -157,8 +157,8 @@ osobní zdraví jednotlivce.</value>
   <data name="AgrovoltaicTractor" xml:space="preserve">
     <value>Návrh soběstačného fotovoltaického traktoru:</value>
   </data>
-  <data name="HealthyFoodsNecessarily" xml:space="preserve">
-    <value>Zvolte:</value>
+  <data name="HealthyFoodsEssential" xml:space="preserve">
+    <value>Zdravé potraviny jsou důležité</value>
   </data>
   <data name="Home" xml:space="preserve">
     <value>Domů</value>
@@ -203,16 +203,13 @@ osobní zdraví jednotlivce.</value>
     <value>Přidat do seznamu</value>
   </data>
   <data name="AlreadyInList" xml:space="preserve">
-    <value>Potravina už je uvedena v seznamu!</value>
+    <value>Potravinová složka je už uvedena v seznamu!</value>
   </data>
   <data name="FoodList" xml:space="preserve">
     <value>Seznam potravin:</value>
   </data>
   <data name="ContactEmail" xml:space="preserve">
     <value>Email</value>
-  </data>
-  <data name="PermaZahrada" xml:space="preserve">
-    <value>PermaZahrada</value>
   </data>
   <data name="About" xml:space="preserve">
     <value>O aplikaci</value>

@@ -24,7 +24,7 @@
             <textarea id="food-notes" rows="5" class="form-control mb-2 readonly" style="min-width: 100%; min-height: @PreparHeight" placeholder="@Resources.Resource.FoodNotes"></textarea>
             <center>
                 <button id="send-email" type="button" class="btn btn-outline-secondary mx-2" style="min-width: @ButtonWidth">@Resources.Resource.SendEmail</button>
-                <button id="record-voice" type="button" class="btn btn-outline-secondary mx-2" style="min-width: @ButtonWidth">@Resources.Resource.RecordVoice</button>
+                <button id="record-voice" type="button" class="btn btn-outline-secondary mx-2" style="min-width: @ButtonWidth" disabled>@Resources.Resource.RecordVoice</button>
             </center>
         </form>
         <form method="get" action="@Url.Action("PrepareFoods", "Home")">
@@ -45,7 +45,7 @@
             stopRecording: "@Html.Raw(@Resources.Resource.StopRecording)",
             informUser: "@Html.Raw(Resources.Resource.RecWillStart) @Html.Raw(Resources.Resource.MaximumRecording) @MaxRecTime @Resources.Resource.Seconds.",
             microphoneError: "@Html.Raw(@Html.Raw(Resources.Resource.MicrophoneError)):",
-            uniqueRequestId: "@Guid.NewGuid()",
+            viewGuid: "@Guid.NewGuid()",
             voice2TextUrl: "@Url.Action("Voice2Text")"
         };
     </script>

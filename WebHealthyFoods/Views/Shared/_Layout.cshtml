@@ -11,7 +11,7 @@
 
     <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
         <div class="container">
-            @Html.ActionLink(Resources.Resource.HealthyFoodsNecessarily, "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            @Html.ActionLink(Resources.Resource.HealthyFoodsEssential, "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Toggle navigation" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -21,11 +21,14 @@
                     <li>@Html.ActionLink(Resources.Resource.Home, "Index", "Home", new { area = "" }, new { @class = "nav-link" })</li>
                     <li>@Html.ActionLink(Resources.Resource.PrepareFoods, "PrepareFoods", "Home", new { area = "" }, new { @class = "nav-link" })</li>
                     <li>@Html.ActionLink(Resources.Resource.FoodsIngredients, "FoodsIngredients", "Home", new { area = "" }, new { @class = "nav-link" })</li>
-                    <li><a class="nav-link" href="https://www.permazahrada.cz/permakultura-jak-zacit/">@Resources.Resource.PermaZahrada &raquo;</a></li>
-                    <li><a class="nav-link" href="https://wheaton-labs.com/">@Resources.Resource.WheatonLabs &raquo;</a></li>
                     <li>@Html.ActionLink(Resources.Resource.About, "About", "Home", new { area = "" }, new { @class = "nav-link" })</li>
                     <li>@Html.ActionLink(Resources.Resource.Contact, "Contact", "Home", new { area = "" }, new { @class = "nav-link" })</li>
                 </ul>
+                <!-- _Layout.cshtml -->
+                <div class="language-switcher" style="float:right; margin-right:20px;">
+                    <a href="@Url.Action("SetLanguage", "Home", new { culture = "cs" })">CZ</a> |
+                    <a href="@Url.Action("SetLanguage", "Home", new { culture = "en" })">EN</a>
+                </div>
                 <!--<p class="nav navbar-text navbar-right">@Resources.Resource.LoggedUser:&nbsp;&nbsp;&nbsp; <strong>@User.Identity.Name</strong></p>-->
             </div>
         </div>
@@ -38,7 +41,8 @@
         </footer>
         <!-- Cookies Warning Banner -->
         <div id="cookies-banner" class="d-none alert alert-info alert-dismissible fade show fixed-bottom mb-0 text-center" role="alert" style="z-index: 1050;">
-            Povoluji těmto stránkám používat cookies k uložení informace o mém e-mailu do tohoto prohlížeče.
+            Povoluji těmto stránkám používat cookies k uložení informace o mém e-mailu do tohoto prohlížeče a k dočasnému uložení hlasového záznamu kvůli převodu na text.
+            Záznam bude vymazán ihned po převodu ze serveru.
             <button type="button" class="btn btn-primary btn-sm ms-2" onclick="enableCookies(true)">Přijmout</button>
             <button type="button" class="btn btn-secondary btn-sm ms-2" onclick="enableCookies(false)">Odmítnout</button>
         </div>

@@ -234,9 +234,9 @@ namespace WebHealthyFoods.App_GlobalResources {
         /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
-        public static string HealthyFoodsNecessarily {
+        public static string HealthyFoodsEssential {
             get {
-                return ResourceManager.GetString("HealthyFoodsNecessarily", resourceCulture);
+                return ResourceManager.GetString("HealthyFoodsEssential", resourceCulture);
             }
         }
         
@@ -315,24 +315,6 @@ namespace WebHealthyFoods.App_GlobalResources {
         /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
-        public static string PermaCultureLinks {
-            get {
-                return ResourceManager.GetString("PermaCultureLinks", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to .
-        /// </summary>
-        public static string PermaZahrada {
-            get {
-                return ResourceManager.GetString("PermaZahrada", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to .
-        /// </summary>
         public static string PrepareFoods {
             get {
                 return ResourceManager.GetString("PrepareFoods", resourceCulture);
@@ -372,6 +354,15 @@ namespace WebHealthyFoods.App_GlobalResources {
         public static string RelatedLinks {
             get {
                 return ResourceManager.GetString("RelatedLinks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string RelatedLinksContent {
+            get {
+                return ResourceManager.GetString("RelatedLinksContent", resourceCulture);
             }
         }
         

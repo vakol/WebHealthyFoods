@@ -131,8 +131,7 @@
   </data>
   <data name="PrepareFoodsDescription" xml:space="preserve">
     <value>Food preparation, if based on a logical basis, can help to increase
-an individual's personal health. In addition, it allows for a higher degree of
-psychological serenity when coupled with appropriate techniques of psychohygiene.</value>
+an individual's personal health.</value>
   </data>
   <data name="LearnMore" xml:space="preserve">
     <value>Learn more</value>
@@ -149,8 +148,8 @@ psychological serenity when coupled with appropriate techniques of psychohygiene
   <data name="RelatedLinks" xml:space="preserve">
     <value>Related Links</value>
   </data>
-  <data name="PermaCultureLinks" xml:space="preserve">
-    <value>Best way to get healthy foods is to grow them yourself. Paul Wheaton is an American permaculture author, master gardener, software engineer:</value>
+  <data name="RelatedLinksContent" xml:space="preserve">
+    <value>Best way to get healthy foods is to grow them yourself.</value>
   </data>
   <data name="WheatonLabs" xml:space="preserve">
     <value>Wheaton Labs</value>
@@ -158,7 +157,7 @@ psychological serenity when coupled with appropriate techniques of psychohygiene
   <data name="AgrovoltaicTractor" xml:space="preserve">
     <value>Draft of self-sufficient photovoltaic tractor:</value>
   </data>
-  <data name="HealthyFoodsNecessarily" xml:space="preserve">
+  <data name="HealthyFoodsEssential" xml:space="preserve">
     <value>Healthy foods are essential</value>
   </data>
   <data name="Home" xml:space="preserve">
@@ -211,9 +210,6 @@ psychological serenity when coupled with appropriate techniques of psychohygiene
   </data>
   <data name="ContactEmail" xml:space="preserve">
     <value>Email</value>
-  </data>
-  <data name="PermaZahrada" xml:space="preserve">
-    <value>PermaZahrada.CZ</value>
   </data>
   <data name="About" xml:space="preserve">
     <value>About</value>
