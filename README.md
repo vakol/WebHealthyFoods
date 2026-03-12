@@ -1,5 +1,5 @@
 # Webová aplikace "Healthy Foods"
-Tato webová aplikace vám pomůže kontrolovat příjem zdravých potravin.
+Tato webová aplikace v C# převedená do PHP a vám pomůže kontrolovat příjem zdravých potravin.
 - Obsahuje recepty složené ze zdravých potravin.
 - Můžete zobrazovat seznam potravin, které obsahují vámi vybrané složky.
 - Výstupy můžete posílat do vaší e-mailové schránky.
